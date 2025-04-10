@@ -1,0 +1,96 @@
+<!--
+REFERENCES
+    W3Schools. (n.d.). HTML Comments. Available at: https://www.w3schools.com/html/html_comments.asp  
+    Codecademy. (n.d.). Forum question [ID: 5198f3017773428a500017b5]. Available at: https://www.codecademy.com/forum_questions/5198f3017773428a500017b5
+    W3Schools. (n.d.). CSS font-weight Property. Available at: https://www.w3schools.com/cssref/pr_font_weight.php
+    W3Schools (n.d.). How to create an image grid. Available at: https://www.w3schools.com/howto/howto_js_image_grid.asp
+    W3Schools (n.d.). How to center a list in CSS. Available at: https://www.w3schools.com/howto/howto_css_center-list.asp
+    W3Schools (n.d.). How to create a horizontal navigation bar in CSS. Available at: https://www.w3schools.com/css/css_navbar_horizontal.asp
+    Tutorial Republic (n.d.). How to create a full-screen iframe with 100 percent height. Available at: https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php
+    W3Schools. (n.d.). CSS Image Centering. Available at: https://www.w3schools.com/css/css3_image_center.asp
+    W3Schools (n.d.). JS Examples. Available at: https://www.w3schools.com/js/js_examples.asp
+    Stack Overflow (2018). How to store value pairs in JavaScript?. Available at: https://stackoverflow.com/questions/48339192/how-to-store-value-pairs-in-java-script 
+    freeCodeCamp.org (2020). 'JavaScript Functions Crash Course'. Available at: https://www.youtube.com/watch?v=j1laALb8OVM
+    W3Schools, (n.d.). JavaScript HTML DOM. Available at: https://www.w3schools.com/js/js_htmldom.asp
+    freeCodeCamp.org (2022) JavaScript DOM Manipulation – Full Course for Beginners. Available at: https://www.youtube.com/watch?v=5fb2aPlgoys
+    W3Schools, (n.d.). UTF-8 Dingbats. Available at: https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+    W3Schools, (n.d.). JavaScript Errors - Throw and Try to Catch. Available at: https://www.w3schools.com/js/js_errors.asp
+    Stack Overflow, (2014). oninput not working on select. Available at: https://stackoverflow.com/questions/22563544/oninput-not-working-on-select
+    Redux Form, (n.d.). FAQ: Button Type. Available at: https://redux-form.com/8.1.0/docs/faq/buttontype.md/
+    Stack Overflow, (2008). How can I validate an email address in JavaScript?. Available at: https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript
+    W3Schools, (n.d.). JavaScript RegExp test() Method. Available at: https://www.w3schools.com/jsref/jsref_regexp_test.asp
+
+NEW REFERENCES FOR WEEK 6 - BOOTSTRAP
+    W3Schools (n.d.). Bootstrap 5 Tutorial. Available at: https://www.w3schools.com/bootstrap5/index.php
+    Bootstrap (n.d.). Collapse · Bootstrap v5.0. Available at: https://getbootstrap.com/docs/5.0/components/collapse/
+    Stack Overflow (2013). Add active navigation class based on URL. Available at: https://stackoverflow.com/questions/20060467/add-active-navigation-class-based-on-url
+    Emojipedia (n.d.). Emojipedia – Home of Emoji Meanings. Available at: https://emojipedia.org/
+    MDN Web Docs (n.d.). ARIA: Accessible Rich Internet Applications – Reference. Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference
+
+NEW REFERENCES FOR WEEK 7 - FINAL:
+    Stack Overflow (2011). How can I remove a specific item from an array in JavaScript? Available at: https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array-in-javascript
+    MDN Web Docs (n.d.). aria-live - Accessibility | MDN. Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-live
+    Dog API (n.d.). Dog API – Fun facts about dogs. Available at: https://dogapi.dog
+    Leaflet (n.d.). Leaflet: an open-source JavaScript library for interactive maps. Available at: https://leafletjs.com/
+    TutorialsPoint (n.d.). How to clear the content of a div using JavaScript?. Available at: https://www.tutorialspoint.com/how-to-clear-the-content-of-a-div-using-javascript
+    Bootstrap. (2021). Modal [online]. Available at: https://getbootstrap.com/docs/5.0/components/modal/
+    Jones, N. (n.d.). Bootstrap 5 Modal Animations [online]. CodePen. Available at: https://codepen.io/nelledejones/pen/gOOPWrK
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Final Ariel Web App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <header>          
+    </header>
+
+    <div id="menu" aria-label="Menu">
+    </div>
+
+    <main class="container my-5" id="main-content">
+
+        <div class="text-center">
+            <h2>Meet Ariel</h2>
+            <p>Ariel is a 9 year old pug who has a passion for wearing outfits.... and looking <span
+                    class="fst-italic fw-bold">fabulous!</span></p>
+            <img src="images/arielPuppy.jpg" class="img-fluid rounded img-thumbnail mx-auto d-block"
+                alt="Ariel as a puppy">
+        </div>
+
+        <div class="mt-4 p-5 bg-light-pink text-dark rounded" aria-label="ariel-facts">
+            <h2 class="text-center">Facts about Ariel</h2>
+            <br>
+            <ul>
+                <li>She was born on the <a class="text-dark" target="_blank"
+                        href="https://www.google.com.au/maps/@-26.8043824,153.125108,15.25z?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D"
+                        title="map where Ariel was born">Sunshine Coast</a> in Queensland, Australia.</li>
+                <li>Her favourite foods are bacon (most favourite!), roast chicken, steak, and mini cheddars.</li>
+                <li>She is super lazy and snores whilst she sleeps.</li>
+                <li>She is the worst guard dog ever... sleeping right through a break-in!</li>
+                <li>She loves basking in the sunshine.</li>
+                <li>She is considered fawn in colour and has brown eyes.</li>
+            </ul>
+        </div>
+
+    </main>
+
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>

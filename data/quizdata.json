@@ -1,0 +1,37 @@
+[
+    {
+        "question": "What is Ariel's most favourite food?",
+        "answer": "Bacon",
+        "clue": "Smoked or unsmoked..."
+    },
+    {
+        "question": "How old is Ariel?",
+        "answer": "9",
+        "clue": "sqrt 81...."
+    },
+    {
+        "question": "Which country was Ariel born in?",
+        "answer": "Australia",
+        "clue": "The island continent..."
+    },
+    {
+        "question": "What type of dog is Ariel?",
+        "answer": "Pug",
+        "clue": "An ancient chinese breed..."
+    },
+    {
+        "question": "What colour is Ariel?",
+        "answer": "Fawn",
+        "clue": "Bambi was one..."
+    },
+    {
+        "question": "What does Ariel do whilst she sleeps?",
+        "answer": "Snores",
+        "clue": "Rhymes with 'roars'..."
+    },
+    {
+        "question": "What colour are Ariel's eyes?",
+        "answer": "Brown",
+        "clue": "The most common colour..."
+    }
+]

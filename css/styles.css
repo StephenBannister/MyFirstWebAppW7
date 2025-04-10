@@ -1,0 +1,55 @@
+/* Added custom hover functionality for each image as couldn't find equivalent in Bootstrap*/
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease;
+}
+
+/* Included custom formatting to try and get the fieldset border and legend text appearing how I want.
+Sadly, it is not perfect as it leaves a gap between the end of the last word and the start of the border.*/
+
+fieldset {
+  position: relative;
+  border: 1px solid #ced4da;
+  padding: 1.5rem 1rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+legend {
+  position: absolute;
+  top: -0.9em;
+  left: 1rem;
+  background-color: white;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 220px;
+}
+
+/* Yet more CSS customisation as Bootstrap doesn't seem to offer a wide range of colours as standard*/
+.bg-dark-pink {
+  background-color: #ff3dab;
+}
+
+.bg-light-pink {
+  background-color: #fd92cf;
+}
+
+.bg-light-green {
+  background-color: rgb(223, 237, 223);
+}
+
+/* Custom formatting for leaflet map */
+
+#map { height: 180px;}
+
+/* Custom formatting to make modal 'bounce' onto the screen */
+@keyframes bounceIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.modal.show .modal-dialog {
+  animation: bounceIn 0.4s ease;
+}
