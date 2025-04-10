@@ -52,6 +52,15 @@ $(document).ready(function () {
             $('#clueText').text("No clue on this one.");
         }
     });
+
+    // Bind the enter key to the submit button for the quiz
+    $('#userAnswer').keypress(function (e) {
+        if (e.keyCode === 13) {
+          e.preventDefault();
+          $('#submitBtn').click();
+        }
+      });
+
 });
 
 

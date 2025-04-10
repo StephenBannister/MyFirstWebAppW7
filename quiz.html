@@ -20,7 +20,7 @@
     <h2 class="text-center" id="quiz-title">The Ariel Quiz!</h2>
     <br>
 
-    <form aria-labelledby="quiz-title" onclick="checkAnswer(); return false;">
+    <form aria-labelledby="quiz-title">
       <fieldset class="border rounded p-4 mb-4">
         <legend>Ariel Quiz Question</legend>
         <div class="mb-3">
@@ -49,7 +49,7 @@
         </div>
         
 
-        <button type="button" class="btn btn-success" id="submitBtn"
+        <button type="button" class="btn btn-success" id="submitBtn" onclick="checkAnswer()"
           aria-label="Submit your answer">
           Submit
         </button>
