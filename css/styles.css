@@ -26,6 +26,11 @@ legend {
   width: 220px;
 }
 
+/* Added a slightly thicker border to the input fields to accentuate the need to populate these */
+input[required] {
+  border-left: 4px solid;
+}
+
 /* Yet more CSS customisation as Bootstrap doesn't seem to offer a wide range of colours as standard*/
 .bg-dark-pink {
   background-color: #ff3dab;
