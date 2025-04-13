@@ -1,10 +1,10 @@
-/* Added custom hover functionality for each image as couldn't find equivalent in Bootstrap*/
+/* Added custom hover functionality for each image in the gallery as couldn't find equivalent in Bootstrap*/
 .card:hover {
   transform: scale(1.03);
   transition: transform 0.2s ease;
 }
 
-/* Included custom formatting to try and get the fieldset border and legend text appearing how I want.
+/* Included custom formatting in addition to Bootstrap to try and get the fieldset border and legend text appearing how I want.
 Sadly, it is not perfect as it leaves a gap between the end of the last word and the start of the border.*/
 
 fieldset {
@@ -26,7 +26,7 @@ legend {
   width: 220px;
 }
 
-/* Added a slightly thicker border to the input fields to accentuate the need to populate these */
+/* Added a slightly thicker left border to the input fields to accentuate the need to populate these */
 input[required] {
   border-left: 4px solid;
 }
@@ -44,11 +44,12 @@ input[required] {
   background-color: rgb(223, 237, 223);
 }
 
-/* Custom formatting for leaflet map */
+/* Formatting for Leaflet map height*/
+#map {
+  height: 180px;
+}
 
-#map { height: 180px;}
-
-/* Custom formatting to make modal 'bounce' onto the screen */
+/* Additonal formatting to make my modal 'bounce' onto the screen */
 @keyframes bounceIn {
   0% { transform: scale(0.9); opacity: 0; }
   60% { transform: scale(1.05); opacity: 1; }
